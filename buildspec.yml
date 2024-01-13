@@ -6,18 +6,18 @@ phases:
     runtime-versions:
       php: 8.2
     commands:
-      - echo "install"
+      - echo 'install'
    
   pre_build:
     on-failure: ABORT
     commands:
-      - echo "prebuild"
+      - echo 'prebuild'
   build:
     on-failure: ABORT
     commands:
-      - echo "build"
+      - echo 'build'
     # steps:
   post_build:
     on-failure: ABORT
     commands:
-      - echo "postbuild"
+      - echo 'postbuild'
